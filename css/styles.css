@@ -134,7 +134,7 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-link:after {
+.header-menu-link::after {
     background-color: #404BBF;
     content: '';
     border-radius: 2px;
@@ -436,7 +436,7 @@ img {
 }
 
 .footer-subscribe-container {
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .subscribe-text {
@@ -555,6 +555,7 @@ img {
     right: 24px;
     margin-bottom: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .modal-close:hover,
@@ -570,7 +571,6 @@ img {
 .modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {
     fill: #FFF;
-    border: none;
 }
 
 .modal-title {
@@ -582,6 +582,14 @@ img {
 
 .modal-field {
     margin-bottom: 8px;
+}
+
+.modal-field:nth-child(4) {
+    margin-bottom: 16px;
+}
+
+.modal-field:last-of-type {
+    margin-bottom: 24px;
 }
 
 .modal-label {
@@ -665,14 +673,20 @@ img {
     display: flex;
     align-items: center;
     position: relative;
-    margin-bottom: 24px;
 
-    a {
+    /* a {
         line-height: 1.33333;
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4d5ae5;
-    }
+    } */
+}
+
+.modal-check-label a {
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
 }
 
 .modal-check-label span {
@@ -684,6 +698,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: transparent;
+}
+
+.modal-check-icon {
     fill: transparent;
 }
 
