@@ -545,8 +545,7 @@ img {
     height: 24px;
     border-radius: 50%;
     background-color: #E7E9FC;
-    border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -697,7 +696,7 @@ img {
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    margin-right: 12px;
+    margin-right: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
