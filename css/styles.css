@@ -350,7 +350,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    padding: 40px;
+    padding: 40px 32px;
     top: 0;
     left: 0;
     width: 100%;
@@ -463,6 +463,10 @@ img {
     color: #FFF;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
 }
 
 .subscribe-input:focus {
@@ -669,7 +673,7 @@ img {
 .modal-check-label {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.33333;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: flex;
